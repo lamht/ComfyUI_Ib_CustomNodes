@@ -63,3 +63,7 @@ def ImageToPIL(
 ) -> PilImage
 ```
 Mainly for use with [ComfyScript](https://github.com/Chaoses-Ib/ComfyScript)'s real mode.
+
+## Load Next Image From Directory
+
+The standalone [`ComfyUI-LoadNextImage`](ComfyUI-LoadNextImage/) package adds a sequential directory image loader with a persistent per-directory index, a selectable filename list, web Previous/Next buttons, an `IMAGE`/`MASK` output pair, execution metadata, and an in-node preview. Its folder and ZIP are ready to install under `ComfyUI/custom_nodes/`; see the package README for usage and troubleshooting.
